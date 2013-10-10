@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/pref_game"
+        android:key="pref_key_game_settings">
+        <SwitchPreference
+            android:key="pref_key_timer"
+            android:title="@string/pref_title_timer_switch"
+            android:defaultValue="false"/>
+		<ListPreference
+            android:key="pref_key_timer_duration"
+            android:title="@string/pref_title_timer_duration_switch"
+            android:dependency="pref_key_timer"
+            android:entries="@array/pref_timer_entries"
+            android:entryValues="@array/pref_timer_values"
+            android:defaultValue="@string/_1_minute"
+            />
+		<SwitchPreference
+            android:key="pref_sound"
+            android:dependency="pref_key_timer"
+            android:title="@string/pref_sound"
+            android:defaultValue="false"/>
+		<ListPreference
+            android:key="pref_key_tiles_sets"
+            android:title="@string/pref_title_tiles_sets"
+            android:entries="@array/pref_tiles_sets_entries"
+            android:entryValues="@array/pref_tiles_sets_values"
+            android:defaultValue="@string/black_white"
+            />
+	</PreferenceCategory>
+	<PreferenceCategory 
+        android:title="@string/pref_player"
+        android:key="pref_key_player_settings">
+	</PreferenceCategory>
+	<Preference
+	    android:title="@string/change_player"
+	    android:key="player_details" />
+	
+</PreferenceScreen>

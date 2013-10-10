@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reversi</string>
+    <string name="reversi">Reversi</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="single_player">Single Player Game</string>
+    <string name="two_player">Two Player Game</string>
+    <string name="high_score">High Score</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pref_sync">Pref Sync</string>
+    <string name="pref_sync_summ">Pref Sync Summary</string>
+    <string name="pref_game">Game Settings</string>
+    <string name="pref_title_timer_switch">Timer</string>
+    <string name="pref_title_timer_duration_switch">Timer Duration</string>
+    <string name="pref_sound">Sound</string>
+    <string name="pref_player">Player Details</string>
+    <string name="title_activity_board">Reversi</string>
+    <string name="now_playing">Now Playing:</string>
+    <string name="player">Player</string>
+    <string name="token_color">Token Color</string>
+    <string name="score">Score</string>
+    <string name="replay">Replay</string>
+    <string name="pass">Pass</string>
+    <string name="title_activity_player_details">Player Details</string>
+    <string name="import_contact">Import Contact</string>
+    <string name="touch_to_select_player_from_contacts">Touch to select player from Contacts</string>
+    <string name="title_activity_high_score">High Score</string>
+    <string name="change_player">Change Player</string>
+    <string name="black_white">Black and White</string>
+    <string name="pref_title_tiles_sets">Tiles Sets</string>
+    <string name="_1_minute">1 minute</string>
+
+</resources>

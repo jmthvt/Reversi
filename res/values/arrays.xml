@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_timer_entries"><item>1 minute</item><item>2 minutes</item><item>3 minutes</item></array>
+    <array name="pref_timer_values"><item>1 minute</item><item>2 minutes</item><item>3 minutes</item></array>
+    <array name="pref_tiles_sets_values"><item>Black and White</item><item>Red and Blue</item><item>Red and White</item></array>
+    <array name="pref_tiles_sets_entries"><item>Black and White</item><item>Red and Blue</item><item>Red and White</item></array>
+</resources>
